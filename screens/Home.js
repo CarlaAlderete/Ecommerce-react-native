@@ -6,13 +6,12 @@ import {
   FlatList,
   Text,
   View,
-  StyleSheet,
-  Pressable
+  StyleSheet
 } from "react-native"
 import { StatusBar } from "expo-status-bar"
 import { connect } from "react-redux"
 import { TouchableOpacity } from "react-native-gesture-handler"
-import { FontAwesome5, Foundation,  MaterialIcons, MaterialCommunityIcons, FontAwesome } from '@expo/vector-icons'
+import { FontAwesome5} from '@expo/vector-icons'
 import productsActions from "../redux/actions/productsActions"
 
 
