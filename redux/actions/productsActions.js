@@ -6,7 +6,7 @@ const productsActions = {
       try {
         let res = await axios.post(
           "https://cozydeco.herokuapp.com/api/products",
-          {},
+          {filterBy: {forSale: true}},
           { withCredentials: true }
         )
         dispatch({ type: "GET_ALL_PRODUCTS", payload: res.data.response })
